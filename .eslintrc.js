@@ -27,6 +27,7 @@ module.exports = {
     'prettier/prettier': 'error',
     quotes: ['error', 'single', { allowTemplateLiterals: true }],
     'react/display-name': 'off',
+    'no-unused-vars': 'off',
   },
   settings: {
     react: { version: 'detect' },
